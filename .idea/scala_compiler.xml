@@ -25,29 +25,6 @@
         <plugin path="C:\Users\gasharma\IdeaProjects\xxxx\elevatorapi\null\Coursier\cache\v1\https\repo-hkg.agodadev.io\agoda-maven\org\scalamacros\paradise_2.12.6\2.1.1\paradise_2.12.6-2.1.1.jar" />
       </plugins>
     </profile>
-    <profile name="sbt 3" modules="common,elevatorapi,share-model">
-      <option name="dynamics" value="true" />
-      <option name="deprecationWarnings" value="true" />
-      <option name="uncheckedWarnings" value="true" />
-      <option name="featureWarnings" value="true" />
-      <option name="explainTypeErrors" value="true" />
-      <parameters>
-        <parameter value="-encoding" />
-        <parameter value="utf8" />
-        <parameter value="-target:jvm-1.8" />
-        <parameter value="-Xlint:-unused,_" />
-        <parameter value="-Ypartial-unification" />
-        <parameter value="-Ywarn-adapted-args" />
-        <parameter value="-Ywarn-dead-code" />
-        <parameter value="-Ywarn-inaccessible" />
-        <parameter value="-Ywarn-infer-any" />
-        <parameter value="-Ywarn-value-discard" />
-        <parameter value="-Ywarn-unused:imports,privates,locals,implicits" />
-      </parameters>
-      <plugins>
-        <plugin path="C:\Users\gasharma\Project\elevatorapi\null\Coursier\cache\v1\https\repo-hkg.agodadev.io\agoda-maven\org\scalamacros\paradise_2.12.6\2.1.1\paradise_2.12.6-2.1.1.jar" />
-      </plugins>
-    </profile>
     <profile name="sbt 4" modules="cegapi,elevator">
       <option name="dynamics" value="true" />
       <option name="deprecationWarnings" value="true" />
@@ -69,6 +46,29 @@
       </parameters>
       <plugins>
         <plugin path="C:\Users\gasharma\IdeaProjects\xxxx\20200316_5_FinalCleanup\elevatorapi\null\Coursier\cache\v1\https\repo-hkg.agodadev.io\agoda-maven\org\scalamacros\paradise_2.12.6\2.1.1\paradise_2.12.6-2.1.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="common,elevatorapi,share-model">
+      <option name="dynamics" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-target:jvm-1.8" />
+        <parameter value="-Xlint:-unused,_" />
+        <parameter value="-Ypartial-unification" />
+        <parameter value="-Ywarn-adapted-args" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-infer-any" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Ywarn-unused:imports,privates,locals,implicits" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\gasharma\Project\elevatorapi\null\Coursier\cache\v1\https\oss.sonatype.org\content\repositories\releases\org\scalamacros\paradise_2.12.6\2.1.1\paradise_2.12.6-2.1.1.jar" />
       </plugins>
     </profile>
   </component>
