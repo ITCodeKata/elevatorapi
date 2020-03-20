@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/elevatorapi.iml" filepath="$PROJECT_DIR$/.idea/modules/elevatorapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/elevatorapi-build.iml" filepath="$PROJECT_DIR$/.idea/modules/elevatorapi-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/share-model.iml" filepath="$PROJECT_DIR$/.idea/modules/share-model.iml" />
+    </modules>
+  </component>
+</project>
